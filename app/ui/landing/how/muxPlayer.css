@@ -1,0 +1,16 @@
+.mux-player-big{
+    --bottom-controls:none;
+    --seek-backward-button:none;
+    --seek-forward-button:none;
+    width: 50% !important;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 640px) {
+    .mux-player-big{
+        width: 90% !important;
+
+    }
+    
+}

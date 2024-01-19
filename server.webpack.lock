@@ -1,0 +1,4 @@
+{
+  "https://translatetracks.s3.amazonaws.com/test/render_test.mp4": { "integrity": "sha512-PAhTGuZUd4e3C53ZsWoeAQEazNmHLCWkFb5ug/Ft1QQjvGHHLwHnYIrg2eyv4MZ79VsKWUd3KOXTcevQZhxf8Q==", "contentType": "video/mp4" },
+  "version": 1
+}

@@ -1,0 +1,16 @@
+.mux-player{
+    --bottom-controls:none;
+    width: 250px !important;
+    --seek-backward-button:none;
+    --seek-forward-button:none;
+    aspect-ratio: 0.5625 !important;
+}
+
+/* @media screen and (max-width: 640px) {
+    .mux-player{
+        width: 75% !important;
+        aspect-ratio: 0.5625 !important;
+
+    }
+    
+} */
