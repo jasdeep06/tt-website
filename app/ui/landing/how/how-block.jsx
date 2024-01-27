@@ -12,7 +12,7 @@ const HowBlock = ({text,subtext,hex,angle,animate_from}) => {
     else if(animate_from == "bottom") animate_string = "translateY(50px)"
 
 
-    const className = `flex flex-row items-center justify-center bg-[#151515] p-2 my-7 md:my-16 md:w-1/4 border-l-8 border-[${hex}] rounded-xl`;
+    const className = `flex flex-row h-fit items-center justify-center bg-[#151515] p-2 my-7 md:my-16 border-l-8 border-[${hex}] rounded-xl`;
     // const className = `flex flex-row items-center justify-center bg-[#151515] p-2 my-7 md:my-16 md:w-1/4 border-l-8 border-[#5f3edf] rounded-xl`;
 
     return (
