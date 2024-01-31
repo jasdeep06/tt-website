@@ -28,7 +28,7 @@ const Calculator = () => {
                 ref={paraRef}
             >
                 <p className="md:text-5xl text-center md:text-left text-2xl font-bold">CALCULATE HOW MUCH IT WILL COST YOU</p>
-                <p className="md:mt-10 md:block hidden">The calculation is approximate and depends on the text's density, the source language, and other parameters.</p>
+                <p className="md:mt-10 md:block hidden">The calculation is approximate and depends on the text density, the source language, and other parameters.</p>
                 <p className="md:hidden text-center">Approx estimate</p>
 
             </div>
@@ -50,7 +50,7 @@ const Calculator = () => {
                 </div>
                 <p className="my-5 text-[#B9ABA0] md:text-sm">Total</p>
                 <p><span className="md:text-5xl text-3xl">{"$ "}</span><span className="md:text-5xl text-3xl">{(6 + (+lipsync)*3 + (+screenTranslation)*3)*videoLength}</span><span className="text-xl mb-1">/language</span></p>
-                <p className="self-center md:text-2xl text-lg my-2 font-bold">What you'll get?</p>
+                <p className="self-center md:text-2xl text-lg my-2 font-bold">What you will get?</p>
                 <GetItem text= { lipsync ? "You will magically speak the desired language in the video!" : "Expert verified translated and dubbed video."} />
                 {screenTranslation && <GetItem text="All the screens translated in the video." />}
                 <GetItem text="Access to the platform to make desired tweaks." />

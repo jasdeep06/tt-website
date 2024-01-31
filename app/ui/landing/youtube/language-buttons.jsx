@@ -9,7 +9,7 @@ const LanguageButton = ({text,selected,switchLanguage }) => {
 
     const buttonClasses = `${selected ? selectedStyles : unselectedStyles}`;
     return(
-        <button className={buttonClasses} key={text} onClick={() => switchLanguage(text)}>{text}</button>
+        <button className={buttonClasses} onClick={() => switchLanguage(text)}>{text}</button>
     )
 }
 
@@ -19,7 +19,7 @@ const LanguageButtons = ({languages,selectedLang,switchLanguage}) => {
     return(
         <div className="flex flex-row justify-center md:justify-between flex-wrap my-2 md:my-0">
             {languages.map((language) => {
-                return <LanguageButton text={language} selected={selectedLang === language} switchLanguage={switchLanguage}/>
+                return <LanguageButton text={language} selected={selectedLang === language} switchLanguage={switchLanguage} key={language}/>
             })}
         </div>
     )
