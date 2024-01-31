@@ -23,22 +23,22 @@ const ClientCarousel = () => {
         <p className="text-3xl text-center my-8">Our Clients</p>
         <Slider {...settings}>
           <div >
-            <Image className="m-auto" src="/amazon-256.png" alt="amazon" width={50} height={50}/>
+            <Image className="m-auto" src="/logo3.png" alt="amazon" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto" src="/apple-256.png" alt="apple" width={50} height={50}/>
+            <Image className="m-auto" src="/logo1.png" alt="apple" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto" src="/angellist-256.png" alt="facebook" width={50} height={50}/>
+            <Image className="m-auto" src="/logo6.png" alt="facebook" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto" src="/posterous-256.png" alt="amazon" width={50} height={50}/>
+            <Image className="m-auto" src="/logo4.png" alt="amazon" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto" src="/spotify-256.png" alt="amazon" width={50} height={50}/>
+            <Image className="m-auto" src="/logo5.png" alt="amazon" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto" src="/whatsapp-256.png" alt="amazon" width={50} height={50}/>
+            <Image className="m-auto" src="/logo7.png" alt="amazon" width={75} height={75}/>
           </div>
         </Slider>
       </div>

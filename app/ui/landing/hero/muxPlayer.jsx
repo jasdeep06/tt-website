@@ -20,7 +20,7 @@ const MuxPlayer = ({ src }) => {
           }}
           ref={ref}
             >
-            <Video src={src} className="mux-player" />
+            <Video src={src} className="mux-player" poster="short_thumbnail_low_res.png" style={{overflow:"hidden",borderRadius:"2.2rem"}} />
         </div>
 
     )

@@ -1,32 +1,12 @@
 "use client"
+import { useInView } from 'framer-motion';
 import React, { useState, useRef, useEffect } from 'react';
 
-const VideoPlayer = ({ videoSrc, audioTracks }) => {
-    const videoRef = useRef(null);
-    const audioRef = useRef(null);
-    const [currentLang, setCurrentLang] = useState('English');
-    const [isMuted, setIsMuted] = useState(true);
+const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLang,toggleMute }) => {
 
-    const switchLanguage = (lang) => {
-        if (audioRef.current) {
-            const currentTime = videoRef.current.currentTime;
-
-            setCurrentLang(lang);
-            audioRef.current.src = audioTracks[lang];
-            audioRef.current.currentTime = currentTime;
-            audioRef.current.play();
-            setIsMuted(false);
-        }
-    };
-
-    const toggleMute = () => {
-        if(isMuted){
-            switchLanguage(currentLang);
-        }else{
-            setIsMuted(!isMuted);
-        }
-    };
-
+    const paraRef = useRef(null);
+    const paraInView = useInView(paraRef, { once: true });
+    
     useEffect(() => {
         if (videoRef.current && audioRef.current) {
             videoRef.current.onseeked = () => {
@@ -36,12 +16,19 @@ const VideoPlayer = ({ videoSrc, audioTracks }) => {
     }, []);
 
     return (
-        <div>
+        <div className="md:w-[640px] w-full" style={{
+            transform: paraInView ? "none" : "translateX(-50px)",
+            opacity: paraInView ? 1 : 0,
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+          }}
+          ref={paraRef} >
             <video 
                 ref={videoRef} 
                 muted 
                 autoPlay 
                 loop
+                onClick={toggleMute}
+                className="rounded-3xl"
             >
                 <source src={videoSrc} type="video/mp4" />
                 Your browser does not support the video tag.
@@ -53,7 +40,7 @@ const VideoPlayer = ({ videoSrc, audioTracks }) => {
             >
                 <source src={audioTracks[currentLang]} type="audio/mp3" />
             </audio>
-            <div>
+            {/* <div>
                 <button onClick={toggleMute}>
                     {isMuted ? 'Unmute' : 'Mute'}
                 </button>
@@ -62,7 +49,7 @@ const VideoPlayer = ({ videoSrc, audioTracks }) => {
                         {lang}
                     </button>
                 ))}
-            </div>
+            </div> */}
         </div>
     );
 };

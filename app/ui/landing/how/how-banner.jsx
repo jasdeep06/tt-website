@@ -1,6 +1,7 @@
 "use client"
 import MuxPlayer from "./muxPlayer";
-import vid from "@/videos/vid.mp4";
+// import vid from "../../../../videos/vid.mp4"
+import how_vid from "../../../../videos/how_video.mp4"
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import HowBlock from "./how-block";
@@ -13,7 +14,7 @@ const HowBanner = () => {
 
 
     return (
-        <div className="bg-[#F3F3F3] text-black flex flex-col">
+        <div className="bg-[#F3F3F3] text-black flex flex-col py-12 px-5">
             <div
                 style={{
                     transform: isInView ? "none" : "translateX(+200px)",
@@ -22,14 +23,16 @@ const HowBanner = () => {
                 }}
                 ref={ref}
             >
-                <p className="text-2xl md:text-3xl text-center self-center py-8">AI dubbing indistinguishable from human dubbing!</p>
+                <p className="text-2xl md:text-3xl text-center self-center mb-8">AI dubbing indistinguishable from human dubbing!</p>
 
             </div>
-            <MuxPlayer src={vid} />
-            <div className="flex justify-around flex-wrap">
-                <HowBlock text="AI" subtext="Our proprietary best in class AI models"  hex="#5f3edf" angle="3" animate_from='left'/>
-                <HowBlock text="Experts" subtext="Our expert localization team" hex="#5f3edf" angle="-3" animate_from='bottom'/>
-                <HowBlock text="Value" subtext="Superior Quality at quarter price" hex="#5f3edf" angle="3" animate_from='right'/>
+            <div className="flex md:flex-row flex-col">
+            <MuxPlayer src={how_vid} />
+            <div className="flex flex-col justify-around flex-wrap">
+                <HowBlock text="AI" subtext="Our proprietary best in class AI models"  hex="#5f3edf" angle="0" animate_from='left'/>
+                <HowBlock text="Experts" subtext="Our expert localization team" hex="#5f3edf" angle="0" animate_from='bottom'/>
+                <HowBlock text="Value" subtext="Superior Quality at quarter price" hex="#5f3edf" angle="0" animate_from='right'/>
+            </div>
             </div>
         </div>
     )

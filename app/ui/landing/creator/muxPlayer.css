@@ -1,16 +1,16 @@
-.mux-player-big{
+.mux-player-big-creator{
     --bottom-controls:none;
     --seek-backward-button:none;
     --seek-forward-button:none;
-    width: 80% !important;
+    width: 640px !important;
     margin: auto;
 }
 
 
-@media screen and (max-width: 640px) {
-    .mux-player-big{
+/* @media screen and (max-width: 640px) {
+    .mux-player-big-creator{
         width: 90% !important;
 
     }
     
-}
+} */

@@ -36,8 +36,9 @@ const MuxPlayer = ({ src }) => {
                 transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
               }}
               ref={ref}
+              className="flex-1 self-center"
             >
-            <Video src={src} className="mux-player-big" />
+            <Video src={src} className="mux-player-big" poster="/video_thumbnail_low_res.png" style={{overflow:"hidden",borderRadius:"2.5rem"}} />
         </div>
 
     )

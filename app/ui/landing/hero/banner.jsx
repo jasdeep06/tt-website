@@ -1,6 +1,6 @@
 import StyledButton from "../../shared/styledButton";
 // import ReactVideo from "./videoPlayer";
-import vid from "@/videos/vid.mp4";
+import vid from "../../../../videos/vid.mp4"
 import MuxPlayer from "./muxPlayer";
 
 
