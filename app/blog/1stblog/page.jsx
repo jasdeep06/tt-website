@@ -1,5 +1,5 @@
-import BlogCarousal from "@/app/ui/blog/blog-carousal";
-import BlogHeader from "@/app/ui/blog/blog-header";
+import BlogCarousal from "../../ui/blog/blog-carousal"
+import BlogHeader from "../../ui/blog/blog-header"
 import React from "react";
 
 
