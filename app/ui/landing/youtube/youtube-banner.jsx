@@ -51,12 +51,14 @@ const YouTubeBanner = () => {
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
           }}
-          ref={ref}>
+          ref={ref}
+          id="mla"
+          >
             <Image src="/yt.png" width={75} height={75} alt="yt-logo" className="self-center" />
             <p className="md:text-3xl text-xl my-2 text-center self-center">YOUTUBE MULTI-LANGUAGE AUDIO TRACK</p>
             <p className="md:text-xl text-lg my-2 self-center">Language is No Longer a Barrier</p>
-            <div className="md:flex md:flex-row flex-col mt-12 gap-3">
-                <div className="flex-2">
+            <div className="md:flex lg:flex-row flex-col mt-12 gap-3">
+                <div >
                 <VideoPlayer
                     videoSrc={"https://translatetracks.s3.amazonaws.com/videos/8e6168fb-26ab-4489-ba98-91a714d30565/sample_test.mp4"}
                     audioTracks={audioTracks}
@@ -68,17 +70,20 @@ const YouTubeBanner = () => {
 
                 />
                 </div>
-                <div className="flex flex-col px-2 justify-between" style={{
+                <div className="flex lg:flex-col flex-col-reverse px-2 justify-between lg:gap-0 gap-10 " style={{
         transform: paraInView ? "none" : "translateX(50px)",
         opacity: paraInView ? 1 : 0,
         transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
       }}
+
+
       ref={paraRef}>
                     <Testimonial 
                     text={"Only 1% of the planet natively speaks Italian. I'm super thankful to TranslateTracks for allowing my content to reach the rest of the world!" }
                     name={"Jacopo Muthiya"}
                     channel={"JackiDale"}
-                    imgSrc="/jaki_final.png"/>
+                    imgSrc="/jaki_final.png"
+                    hiddenSm={false}/>
                     
                     <LanguageButtons languages={languages} selectedLang={currentLang} switchLanguage={switchLanguage} />
                 </div>

@@ -15,7 +15,7 @@ const Banner = () => {
                 <p className="text-xl m-1 mx-2 text-center">Expert verified localization </p>
                 <p className="text-xl m-1 mx-2 text-center">Accurate lip sync.</p>
             </div>
-            <StyledButton text={"Get Started"} className="w-1/3 self-center md:self-start my-5"/>
+            <StyledButton text={"Get Started"} className="w-1/3 self-center md:self-start my-5 text-nowrap"/>
         </div>
         {/* <ReactPlayer url={"/vid.mp4"}/> */}
         {/* <ReactVideo url={"https://translatetracks.s3.amazonaws.com/test/render_test.mp4"}/> */}

@@ -4,13 +4,14 @@
     --seek-forward-button:none;
     width: 80% !important;
     margin: auto;
+    min-width: 400px !important;
 }
 
 
 @media screen and (max-width: 640px) {
     .mux-player-big{
         width: 90% !important;
-
+        min-width: 0px !important;
     }
     
 }

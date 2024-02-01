@@ -14,7 +14,7 @@ const HowBanner = () => {
 
 
     return (
-        <div className="bg-[#F3F3F3] text-black flex flex-col py-12 px-5">
+        <div className="bg-[#F3F3F3] text-black flex flex-col py-12 px-5" id="how">
             <div
                 style={{
                     transform: isInView ? "none" : "translateX(+200px)",
@@ -26,9 +26,9 @@ const HowBanner = () => {
                 <p className="text-2xl md:text-3xl text-center self-center mb-8">AI dubbing indistinguishable from human dubbing!</p>
 
             </div>
-            <div className="flex md:flex-row flex-col">
+            <div className="flex md:flex-row md:flex-wrap flex-col gap-3">
             <MuxPlayer src={how_vid} />
-            <div className="flex flex-col justify-around flex-wrap">
+            <div className="flex flex-col justify-around flex-wrap m-auto">
                 <HowBlock text="AI" subtext="Our proprietary best in class AI models"  hex="#5f3edf" angle="0" animate_from='left'/>
                 <HowBlock text="Experts" subtext="Our expert localization team" hex="#5f3edf" angle="0" animate_from='bottom'/>
                 <HowBlock text="Value" subtext="Superior Quality at quarter price" hex="#5f3edf" angle="0" animate_from='right'/>

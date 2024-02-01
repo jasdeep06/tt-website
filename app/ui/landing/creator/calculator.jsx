@@ -19,7 +19,7 @@ const Calculator = () => {
 
 
     return (
-        <div className="flex flex-col md:flex md:flex-row md:mt-[100px] mt-[50px] gap-3 justify-around">
+        <div className="flex flex-col lg:flex lg:flex-row lg:mt-[100px] mt-[50px] gap-3 justify-around">
             <div className="md:max-w-[500px] self-center" style={{
                 transform: paraInView ? "none" : "translateX(50px)",
                 opacity: paraInView ? 1 : 0,
@@ -27,12 +27,12 @@ const Calculator = () => {
             }}
                 ref={paraRef}
             >
-                <p className="md:text-5xl text-center md:text-left text-2xl font-bold">CALCULATE HOW MUCH IT WILL COST YOU</p>
-                <p className="md:mt-10 md:block hidden">The calculation is approximate and depends on the text density, the source language, and other parameters.</p>
-                <p className="md:hidden text-center">Approx estimate</p>
+                <p className="lg:text-5xl text-center lg:text-left text-2xl font-bold">CALCULATE HOW MUCH IT WILL COST YOU</p>
+                <p className="lg:mt-10 lg:block hidden">The calculation is approximate and depends on the text density, the source language, and other parameters.</p>
+                <p className="lg:hidden text-center">Approx estimate</p>
 
             </div>
-            <div className="flex flex-col bg-[#ffffff] md:px-12 px-5 py-5 rounded-3xl text-black" style={{
+            <div className="flex flex-col bg-[#ffffff] md:px-12 px-5 py-5 rounded-3xl text-black m-auto lg:m-0" style={{
                 transform: calcInView ? "none" : "translateX(-50px)",
                 opacity: calcInView ? 1 : 0,
                 transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"

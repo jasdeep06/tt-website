@@ -7,10 +7,9 @@
 }
 
 
-/* @media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
     .mux-player-big-creator{
         width: 90% !important;
-
     }
     
-} */
+}

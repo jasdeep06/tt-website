@@ -18,7 +18,7 @@ const MuxPlayer = ({ src }) => {
             //   }}
             //   ref={ref}
             >
-            <Video src={src} className="mux-player-big-creator" />
+            <Video src={src} className="mux-player-big-creator" style={{overflow:"hidden",borderRadius:"2.5rem"}} />
         </div>
 
     )

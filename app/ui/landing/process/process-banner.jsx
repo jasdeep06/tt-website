@@ -33,7 +33,9 @@ const ProcessBanner = () => {
         opacity: isInView ? 1 : 0,
         transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
       }}
-      ref={ref}>
+      ref={ref}
+      id="process"
+      >
     <Image src="/globe-64.png" alt="globe" width={75} height={75} className="col-start-2 self-center justify-self-center py-4" />
     <p className="col-start-2 justify-self-center md:text-3xl py-8">The process to go multilingual!</p>
     <p className="col-start-2 justify-self-center md:text-lg">You give us your asset files.</p>

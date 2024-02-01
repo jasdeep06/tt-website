@@ -16,7 +16,7 @@ const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLa
     }, []);
 
     return (
-        <div className="md:w-[640px] w-full" style={{
+        <div className='lg:w-[640px] w-full' style={{
             transform: paraInView ? "none" : "translateX(-50px)",
             opacity: paraInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
@@ -28,7 +28,7 @@ const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLa
                 autoPlay 
                 loop
                 onClick={toggleMute}
-                className="rounded-3xl"
+                className="rounded-3xl lg:w-[640px] w-full"
             >
                 <source src={videoSrc} type="video/mp4" />
                 Your browser does not support the video tag.

@@ -8,6 +8,7 @@ import ProcessBanner from "./ui/landing/process/process-banner";
 import YouTubeBanner from "./ui/landing/youtube/youtube-banner";
 import {NextUIProvider} from "@nextui-org/system";
 import CreatorBanner from "./ui/landing/creator/creator-banner";
+import FooterBanner from "./ui/landing/footer/footer-banner";
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
     <ProcessBanner/>
     <YouTubeBanner/>
     <CreatorBanner/>
+    <FooterBanner/>
     </React.Fragment>
     </NextUIProvider>
 

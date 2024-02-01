@@ -1,8 +1,11 @@
+import Link from "next/link";
+
 const StyledButton = ({text,className,inverted=false }) => {
-    const buttonClasses = `border-2 border-white rounded-lg p-3 px-6 ${className || ''}`;
-    const invertedButtonClasses = `border-2 border-[#151515] rounded-lg p-3 px-6 ${className || ''} text-black`;
+    const buttonClasses = `border-2 border-white rounded-lg p-3 px-6 text-nowrap ${className || ''}`;
+    const invertedButtonClasses = `border-2 border-[#151515] rounded-lg p-3 px-6  text-nowrap ${className || ''} text-black`;
     return(
-        <button className={inverted ? invertedButtonClasses : buttonClasses}>{text}</button>
+        // <button className={inverted ? invertedButtonClasses : buttonClasses} >{text}</button>
+        <Link className={inverted ? invertedButtonClasses : buttonClasses} href="/contact">{text}</Link>
     )
 }
 
