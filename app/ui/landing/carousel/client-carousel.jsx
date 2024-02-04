@@ -23,22 +23,22 @@ const ClientCarousel = () => {
         <p className="text-3xl text-center my-8">Our Clients</p>
         <Slider {...settings}>
           <div >
-            <Image className="m-auto" src="/logo3.png" alt="amazon" width={75} height={75}/>
+            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo3.png" alt="amazon" width={75} height={75} />
           </div>
           <div>
-            <Image className="m-auto" src="/logo1.png" alt="apple" width={75} height={75}/>
+            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo1.png" alt="apple" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto" src="/logo6.png" alt="facebook" width={75} height={75}/>
+            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo6.png" alt="facebook" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto" src="/logo4.png" alt="amazon" width={75} height={75}/>
+            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo4.png" alt="amazon" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto" src="/logo5.png" alt="amazon" width={75} height={75}/>
+            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo5.png" alt="amazon" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto" src="/logo7.png" alt="amazon" width={75} height={75}/>
+            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo7.png" alt="amazon" width={75} height={75}/>
           </div>
         </Slider>
       </div>

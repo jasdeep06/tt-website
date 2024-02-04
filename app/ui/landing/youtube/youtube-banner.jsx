@@ -55,8 +55,8 @@ const YouTubeBanner = () => {
           id="mla"
           >
             <Image src="/yt.png" width={75} height={75} alt="yt-logo" className="self-center" />
-            <p className="md:text-3xl text-xl my-2 text-center self-center">YOUTUBE MULTI-LANGUAGE AUDIO TRACK</p>
-            <p className="md:text-xl text-lg my-2 self-center">Language is No Longer a Barrier</p>
+            <p className="md:text-4xl text-xl my-2 text-center self-center">YOUTUBE MULTI-LANGUAGE AUDIO TRACK</p>
+            <p className="md:text-2xl text-lg my-2 self-center">Language is No Longer a Barrier</p>
             <div className="md:flex lg:flex-row flex-col mt-12 gap-3">
                 <div >
                 <VideoPlayer

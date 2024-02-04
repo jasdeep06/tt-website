@@ -14,7 +14,8 @@ const HowBanner = () => {
 
 
     return (
-        <div className="bg-[#F3F3F3] text-black flex flex-col py-12 px-5" id="how">
+        <div className="bg-[#F3F3F3] text-black flex flex-col py-12 pt-4 px-5 pb-[80px]" id="how">
+            <Image src="/speaker_high.png" width={75} height={75} alt="how-logo" className="self-center mb-8" />
             <div
                 style={{
                     transform: isInView ? "none" : "translateX(+200px)",
@@ -23,7 +24,7 @@ const HowBanner = () => {
                 }}
                 ref={ref}
             >
-                <p className="text-2xl md:text-3xl text-center self-center mb-8">AI dubbing indistinguishable from human dubbing!</p>
+                <p className="text-2xl md:text-4xl text-center self-center mb-[80px]  uppercase">AI dubbing indistinguishable from human dubbing!</p>
 
             </div>
             <div className="flex md:flex-row md:flex-wrap flex-col gap-3">

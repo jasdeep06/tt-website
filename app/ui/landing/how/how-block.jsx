@@ -19,9 +19,9 @@ const HowBlock = ({text,subtext,hex,angle,animate_from,small=false,invert=false}
     const className = `flex flex-row h-fit items-center justify-center bg-[${bg}] p-2 my-7 md:${margin} border-l-8 border-[${hex}] rounded-xl`;
     // const className = `flex flex-row items-center justify-center bg-[#151515] p-2 my-7 md:my-16 md:w-1/4 border-l-8 border-[#5f3edf] rounded-xl`;
 
-    const classNameSmall = `text-5xl md:text-3xl text-center self-center ${font_color}`
-    const classNameBig = `text-5xl md:text-7xl text-center self-center ${font_color}`
-    const classNameSubText = `text-sm md:text-base self-center text-center flex-1 ml-4 ${font_color}`
+    const classNameSmall = `text-4xl md:text-2xl text-center self-center ${font_color}`
+    const classNameBig = `text-4xl md:text-6xl text-center self-center ${font_color}`
+    const classNameSubText = `text-sm md:text-lg self-center text-center flex-1 ml-4 ${font_color}`
 
     const classNameFont = small ? classNameSmall : classNameBig;
 

@@ -4,7 +4,7 @@ const NavLink = ({text,target_id,path}) => {
     const target = "/#" + target_id;
     const pathTarget = "/" + path;
     return (
-        <div className="cursor-pointer p-2 md:p-0">
+        <div className="cursor-pointer p-2 md:p-0 m-auto">
             <Link href={target_id ? target : pathTarget}>{text}</Link>
         </div>
     )

@@ -20,7 +20,7 @@ const CreatorBanner = () => {
           ref={ref}
           id="translation"
           >
-            <Image src="/yt.png" width={75} height={75} alt="yt-logo" className="self-center" />
+            <Image src="/video_translation_compact.png" width={75} height={75} alt="yt-logo" className="self-center" />
             <p className="md:text-3xl text-xl my-2 text-center self-center">COMPLETE VIDEO TRANSLATION</p>
             <p className="md:text-xl text-lg my-2 self-center text-center">Supercharge your reach with <span className="md:text-3xl font-bold">DUBBING</span> accompanied by <span className="md:text-3xl font-bold">SCREEN TRANSLATION</span> and magical <span className="md:text-3xl font-bold">LIP SYNC</span>!</p>
             <div className="flex lg:flex-row flex-col mt-14 gap-3">

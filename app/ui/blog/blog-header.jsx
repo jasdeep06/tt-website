@@ -3,7 +3,7 @@ import Image from "next/image";
 const BlogHeader = ({imgSrc,meta,heading,writerSrc,writerName}) => {
     return (
         <div class="relative min-h-[80lvh] md:max-h-[70lvh]">
-            <div class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-transparent to-black/50 text-white rounded-b-3xl flex items-end">
+            <div class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-black/100 via-transparent to-black/50 text-white rounded-b-3xl flex items-end">
                 <div class="container mx-auto grid md:grid-cols-12 gap-5 px-6 md:px-0 py-12">
                     <div class="col-span-8">
                         <small class="uppercase">{meta}</small>

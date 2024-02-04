@@ -1,8 +1,8 @@
 import Image from "next/image"
 
-const Card = ({src,meta,heading,teaser}) => {
+const Card = ({src,meta,heading,teaser,link}) => {
     return (
-        <article className="flex flex-col gap-5">
+        <article className="flex flex-col gap-5 size-fit">
             <Image alt="Going From 0 to 10 Million Views per Month"
                 className="rounded-2xl h-auto object-cover w-full"
                 src={src} 
@@ -14,7 +14,7 @@ const Card = ({src,meta,heading,teaser}) => {
                     <h3 className="font-bold text-xl">{heading}</h3>
                     <p className="truncate">{teaser}</p>
                 </div>
-                <a className="px-6 py-4 rounded-full max-h-[60px] bg-purple font-bold text-white border border-pink flex items-center justify-center min-w-max lg:w-max" href="/blog/going-from-0-to-10-million-views-per-month">Read →</a>
+                <a className="px-6 py-4 rounded-full max-h-[60px] bg-purple font-bold text-white border border-pink flex items-center justify-center min-w-max lg:w-max" href={link}>Read →</a>
             </div>
         </article>
     )
