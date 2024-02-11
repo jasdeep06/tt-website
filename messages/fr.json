@@ -1,0 +1,213 @@
+{
+    "Hero": {
+      "Democratizing": "Démocratiser le",
+      "PremiumDubbing": "Doublage de qualité",
+      "Cheaper": "4x moins cher",
+    "ExpertVerifiedLocalization": "Localisation experte",
+    "AccurateLipSync": "Lip-sync précis",
+    "GetStarted": "Commencer",
+      "OurClients": "Nos clients"
+    },
+    "How": {
+        "AIDubbing": "Doublage IA indiscernable du doublage humain !",
+        "AI": "IA",
+        "AI_Subtext": "Nos modèles IA de classe mondiale",
+        "Experts": "Experts",
+        "Experts_Subtext": "Notre équipe d'experts en localisation",
+        "Value": "Valeur",
+        "Value_Subtext": "Qualité supérieure à un quart du prix"
+      },
+      "Process": {
+        "processTitle": "Le processus pour devenir multilingue !",
+        "step1Part1": "Vous nous donnez vos",
+        "step1Part2": "fichiers de projet",
+        "step2Part1": "Vous créez du",
+        "step2Part2": "contenu original",
+        "step2Part3": "dans votre langue",
+        "step3Part1": "Sous-titres et",
+        "step3Part2": "doublages parfaits,",
+        "step3Part3": "avec accès à ",
+        "step3Part4": "la plateforme",
+        "step3Part5": "pour personnaliser",
+        "step4Part1": " ",
+        "step4Part2": "Transcription, traduction",
+        "step4Part3": "et doublages IA",
+        "step4Part4": " ",
+        "step4Part5": "par des experts pour vos vidéos",
+        "buttonText": "En savoir plus"
+    },
+        "Youtube": {
+
+                "youtubeMultiLanguageAudioTrack": "PISTE AUDIO MULTILINGUE YOUTUBE",
+                "languageBarrier": "La langue n'est plus une barrière",
+                "testimonialText": "Seulement 1% de la planète parle nativement l'italien. Je suis extrêmement reconnaissant à TranslateTracks de permettre à mon contenu d'atteindre le reste du monde !",
+                "testimonialName": "Jacopo Muthiya",
+                "testimonialChannel": "JackiDale"
+        },
+        "Youtube-Calculator": {
+                "calculatorTitle": "CALCULEZ COMBIEN CELA VOUS COÛTERA",
+                "calculatorSubtitleDesktop": "Le calcul est approximatif et dépend de la densité du texte, de la langue source et d'autres paramètres.",
+                "calculatorSubtitleMobile": "Estimation approx",
+                "videoLengthLabel": "DURÉE DE VOTRE VIDÉO (MINUTES)",
+                "totalLabel": "Total",
+                "perLanguage": "/langue",
+                "whatYouWillGet": "Ce que vous obtiendrez ?",
+                "getItem1": "Piste audio traduite et doublée vérifiée par des experts.",
+                "getItem2": "Accès à la plateforme pour les ajustements souhaités.",
+                "getItem3": "Sous-titres originaux",
+                "getItem4": "Sous-titres traduits",
+                "getStartedButton": "COMMENCER"
+        },
+        "Creator":{
+            "completeVideoTranslationTitle": "TRADUCTION COMPLÈTE DE VIDÉO",
+            "superchargeYourReach1": "Développez votre audience avec", 
+            "superchargeYourReach2":"le DOUBLAGE",
+            "superchargeYourReach3":"accompagné de",
+            "superchargeYourReach4":"la TRADUCTION D'ÉCRAN",
+            "superchargeYourReach5": "et la magique",
+            "superchargeYourReach6": "SYNCHRONISATION LABIALE !",
+            "testimonialText": "TranslateTracks a changé la donne pour moi. Je peux désormais toucher un public mondial avec mon contenu. J'ai hâte de voir leurs prochaines innovations !",
+            "testimonialName": "Elon Musk",
+            "testimonialChannel": "Tesla",
+            "dubbing": "DOUBLAGE",
+            "screenTranslation": "TRADUCTION D'ÉCRAN",
+            "lipSync": "SYNCHRO LABIALE"
+          },
+          "Creator-Calculator":{
+            "calculateCostTitle": "CALCULEZ COMBIEN CELA VOUS COÛTERA",
+            "calculationNoteDesktop": "Le calcul est approximatif et dépend de la densité du texte, de la langue source et d'autres paramètres.",
+            "calculationNoteMobile": "Estimation approx",
+            "videoLengthLabel": "DURÉE DE VOTRE VIDÉO (MINUTES)",
+            "lipSyncOption": "Synchro labiale",
+            "screenTranslationOption": "Traduction d'écran",
+            "totalLabel": "Total",
+            "perLanguage": "/langue",
+            "whatYouWillGet": "Ce que vous obtiendrez ?",
+            "getItemLipSync": "Vous parlerez magiquement la langue souhaitée dans la vidéo !",
+            "getItemNoLipSync": "Vidéo traduite et doublée vérifiée par des experts.",
+            "getItemScreenTranslation": "Tous les écrans traduits dans la vidéo.",
+            "getItemAccessPlatform": "Accès à la plateforme pour les ajustements souhaités.",
+            "getItemOriginalSubtitles": "Sous-titres originaux",
+            "getItemTranslatedSubtitles": "Sous-titres traduits",
+            "getStartedButton": "COMMENCER"
+          },
+          
+          "Nav":{
+            "navHowItWorks": "Comment ça marche ?",
+            "navProcess": "Processus",
+            "navYoutubeMLA": "Youtube MLA",
+            "navVideoTranslation": "Traduction Vidéo",
+            "navBlog": "Blog",
+            "navGetStarted": "Commencer"
+          },
+          "Footer":{
+            "footerHowItWorks": "Comment ça marche ?",
+            "footerProcess": "Processus",
+            "footerYoutubeMLA": "Youtube MLA",
+            "footerVideoTranslation": "Traduction Vidéo",
+            "footerBlog": "Blog",
+            "footerCopyright": "© 2024 TranslateTracks. Tous droits réservés"
+          },
+          "Blog": {
+            "blogTitle": "Blog",
+            "recent": "Récents",
+            "readTime": "3 min de lecture",
+            "readMore": "Lire la suite →",
+            "blogPost1Date": "1 février 2024",
+            "blogPost1Title": "Comment savoir si votre chaîne YouTube dispose de la fonction audio multilingue",
+            "blogPost1Teaser": "Exploration de l'option audio multilingue innovante de YouTube en 2024. Vous êtes créateur de contenu sur YouTube cette année ? Si oui, vous avez peut-être entendu parler de la passionnante \"fonction audio multilingue\". Cet outil innovant est un changement de jeu, surtout pour ceux cherchant à étendre leur portée mondiale. Il permet aux créateurs de télécharger diverses pistes audio doublées en plus de leur contenu principal. Cela signifie que les spectateurs du monde entier peuvent profiter des vidéos dans leur langue préférée. Prenons, par exemple, une vidéo originellement en italien. Avec cette fonctionnalité, un créateur peut ajouter une piste audio supplémentaire en anglais. Lorsqu'un utilisateur anglophone regarde la vidéo, YouTube la joue automatiquement avec le doublage anglais, y compris un titre et une description traduits. Les spectateurs ont également la flexibilité de changer de piste audio en cours de vidéo. En cliquant sur l'icône des paramètres (le symbole d'engrenage), en sélectionnant 'Pistes audio' et en choisissant leur langue préférée, ils peuvent modifier le doublage comme ils le souhaitent. L'impact de cette fonctionnalité est significatif. Par exemple, JakiDale et Jamy – Epicurieux, des chaînes ayant utilisé nos services chez TranslateTracks, ont vu une remarquable augmentation de leur audience. Vérification de la fonction audio multilingue sur votre chaîne YouTube introduit progressivement cette fonctionnalité à ses créateurs. Beaucoup l'ont reçue sans même réaliser son potentiel. Pour vérifier si elle est disponible pour vous, suivez ces étapes : Naviguez vers YouTube Studio, sélectionnez une vidéo plus longue, cliquez sur 'Sous-titres' dans le panneau de gauche, et cherchez une option pour ajouter des fichiers audio dans différentes langues. Si elle est là, vous êtes prêt ! Que faire si vous n'avez pas encore reçu la fonctionnalité Pour ceux qui n'ont pas encore reçu cette fonctionnalité, l'approche de distribution de YouTube a été quelque peu opaque. Les créateurs cherchant à obtenir la fonctionnalité sont souvent conseillés de patienter. Le support partenaire YouTube a déclaré : 'La fonction audio multilingue est encore en cours de déploiement auprès de tous les créateurs. Si elle n'est pas encore accessible pour vous, nous vous demandons de patienter alors que nous continuons le déploiement. Cette fonctionnalité ne peut pas être activée manuellement pour les chaînes individuelles.' Cependant, chez Translatetracks, nous vous couvrons. Nous offrons un service pour créer des chaînes doublées pour les créateurs, favorisant la croissance d'un nouveau segment d'audience, même sans accès à la fonction audio multilingue. Essayez maintenant !",
+            "blogPost2Title": "L'augmentation spectaculaire des vues de MrBeast grâce aux pistes audio doublées de YouTube",
+            "blogPost2Teaser": "En février 2023, YouTube a dévoilé une fonctionnalité qui, dans sa simplicité et son efficacité, a considérablement augmenté l'audience des principaux influenceurs comme MrBeast. Cet outil révolutionnaire ? Les pistes audio multilingues. Comprendre l'audio multilingue sur YouTube Cette fonctionnalité est une aubaine pour les audiences mondiales, leur permettant de profiter de vidéos avec des pistes audio doublées dans la langue. Elle brise essentiellement la barrière de la langue, permettant aux spectateurs de profiter du contenu dans leur langue maternelle directement sur la chaîne principale du créateur, sans avoir à chercher une version doublée séparément. L'avantage de l'audio multilingue pour les YouTubers Considérez les statistiques : une grande majorité du monde ne parle pas anglais, pourtant de nombreux YouTubers populaires, y compris MrBeast, créent principalement du contenu en anglais. Pour un créateur de contenu sur YouTube, le but ultime est d'élargir continuellement leur audience. Une fois que vous avez saturé votre marché local, l'étape suivante est de devenir mondial. C'est là que les pistes audio multilingues entrent en jeu. Le mouvement stratégique de MrBeast À l'origine, MrBeast a abordé la barrière de la langue en créant des chaînes séparées pour différentes langues, comme MrBeast Espanol. Cependant, avec l'introduction de l'audio multilingue de YouTube, il a pu ajouter des pistes doublées à ses vidéos originales. Cela a non seulement rationalisé son processus mais a également centralisé son audience, augmentant considérablement ses vues. Dans une interview, MrBeast a crédité cette fonctionnalité pour augmenter substantiellement son audience par vidéo. Ce n'est pas seulement à propos de MrBeast. YouTube rapporte que les créateurs utilisant cette fonctionnalité ont vu environ 15% de leur temps de visionnage provenir de spectateurs utilisant les pistes audio doublées. Activer l'audio multilingue en tant que spectateur et créateur Pour les spectateurs, c'est aussi simple que de cliquer sur l'icône des paramètres sur une vidéo et de sélectionner leur piste audio préférée. Pour les créateurs, ils peuvent facilement ajouter plusieurs pistes audio dans diverses langues en utilisant l'éditeur de sous-titres lors du téléchargement de leur contenu. Le rôle de TranslateTracks dans l'engagement de l'audience mondiale Alors que l'audio multilingue ouvre la voie à une portée internationale, la question d'obtenir des doublages de haute qualité et rentables dans diverses langues demeure. C'est là que TranslateTracks intervient. Nous nous spécialisons dans la fourniture de doublages IA premium et rentables dans plus de 50 langues. Notre technologie, avec nos experts en traduction et notre équipe dédiée, vous assure de recevoir un doublage IA de haute qualité pour vos vidéos YouTube, atteignant de nouveaux publics inexplorés. Votre tour de devenir mondial avec TranslateTracks La conclusion est claire : l'audio multilingue révolutionne l'audience de YouTube. Pour les créateurs cherchant à briser les barrières linguistiques et à atteindre une audience mondiale, TranslateTracks offre la solution parfaite pour commencer avec des doublages IA de haute qualité. Embrassez cette nouvelle ère de création de contenu – commencez à doubler avec TranslateTracks aujourd'hui !",
+            "blogPost3Title": "Le secret derrière l'incroyable succès de 100M de vues de Mr. Beast",
+            "blogPost3Teaser": "Comment se démarquer dans un monde digital grouillant de plus de 113 millions de créateurs de contenu ? C'est une question avec laquelle les influenceurs YouTube luttent constamment, visant à capturer l'attention des 122 millions d'utilisateurs actifs quotidiens de la plateforme. Jimmy Donaldson, plus connu sous le nom de \"Mr. Beast\", a craqué ce code. À seulement 24 ans, comptant plus de 231 millions d'abonnés, il se positionne comme l'une des personnalités les plus regardées et les mieux payées de YouTube. Le changement de jeu pour Mr. Beast est survenu en 2021 lorsque son nombre d'abonnés a grimpé de 40 000 à un stupéfiant 54 millions, principalement grâce à sa stratégie d'introduction de vidéos doublées. Le 8 juillet 2021, il a lancé son premier ensemble de vidéos multilingues en espagnol. Ce n'était que le début. Bientôt, son contenu était disponible en arabe, bengali, français, hindi, indonésien, japonais, coréen, portugais, russe, thaï, turc et vietnamien. Cette diversification linguistique a catapulté son audience et sa base d'abonnés dans les centaines de millions. Dans une conversation franche avec Joe Rogan, Mr. Beast a souligné une perspicacité cruciale : \"moins de 10% du monde parle anglais, donc si vous créez du contenu uniquement en anglais, vous manquez 90% de l'audience potentielle.\" Initialement, l'approche de Mr. Beast impliquait la création de chaînes YouTube séparées pour chaque langue. Cependant, avec l'introduction de la fonction audio multilingue de YouTube fin 2023, il a intégré ses chaînes linguistiques diverses, y compris celle en hindi, dans sa chaîne principale. Cette stratégie a non seulement rationalisé sa production de contenu mais a également centralisé son audience, conduisant à une augmentation des vues et de l'engagement. Le résultat a été rien de moins que spectaculaire. Des vidéos qui avaient précédemment des comptes de vues modestes ont commencé à atteindre des millions. Une vidéo doublée en 12 langues, par exemple, est passée de 15 millions à près de 200 millions de vues. Le succès, selon Mr. Beast, était dû aux traductions culturellement résonnantes, avec sa chaîne en hindi devenant exceptionnellement populaire. Gérer des traductions qui maintiennent le ton et l'intention à travers les langues est une tâche formidable. C'est là que des services professionnels comme TranslateTracks interviennent. Spécialisés dans plus de 28 langues, TranslateTracks offre une solution facile et rentable pour doubler les vidéos en utilisant l'IA. Nous offrons non seulement des traductions premium mais aussi fournissons un accès à notre plateforme offrant une flexibilité pour les créateurs d'affiner leur contenu. La tendance des vidéos doublées multilingues est plus qu'une simple mode passagère ; elle représente l'avenir de YouTube. Créer du contenu qui transcende les barrières linguistiques est clé pour construire une communauté véritablement mondiale. Avec TranslateTracks, vous ne vous contentez pas de traduire ; vous vous connectez avec une audience mondiale, garantissant que votre contenu est relatable et agréable pour tous, indépendamment de leur langue maternelle."
+        },
+        "BlogFooter":{
+            "readMore": "Lire la suite",
+            "getStartedButton": "Commencer",
+            "blogCard1": {
+              "date": "1 février 2024",
+              "readTime": "3 min de lecture",
+              "heading": "Comment savoir si votre chaîne YouTube dispose de la fonction audio multilingue",
+            "teaser": "Exploration de l'option audio multilingue innovante de YouTube en 2024. Vous êtes créateur de contenu sur YouTube cette année ? Si oui, vous avez peut-être entendu parler de la passionnante \"fonction audio multilingue\". Cet outil innovant est un changement de jeu, surtout pour ceux cherchant à étendre leur portée mondiale. Il permet aux créateurs de télécharger diverses pistes audio doublées en plus de leur contenu principal. Cela signifie que les spectateurs du monde entier peuvent profiter des vidéos dans leur langue préférée. Prenons, par exemple, une vidéo originellement en italien. Avec cette fonctionnalité, un créateur peut ajouter une piste audio supplémentaire en anglais. Lorsqu'un utilisateur anglophone regarde la vidéo, YouTube la joue automatiquement avec le doublage anglais, y compris un titre et une description traduits. Les spectateurs ont également la flexibilité de changer de piste audio en cours de vidéo. En cliquant sur l'icône des paramètres (le symbole d'engrenage), en sélectionnant 'Pistes audio' et en choisissant leur langue préférée, ils peuvent modifier le doublage comme ils le souhaitent. L'impact de cette fonctionnalité est significatif. Par exemple, JakiDale et Jamy – Epicurieux, des chaînes ayant utilisé nos services chez TranslateTracks, ont vu une remarquable augmentation de leur audience. Vérification de la fonction audio multilingue sur votre chaîne YouTube introduit progressivement cette fonctionnalité à ses créateurs. Beaucoup l'ont reçue sans même réaliser son potentiel. Pour vérifier si elle est disponible pour vous, suivez ces étapes : Naviguez vers YouTube Studio, sélectionnez une vidéo plus longue, cliquez sur 'Sous-titres' dans le panneau de gauche, et cherchez une option pour ajouter des fichiers audio dans différentes langues. Si elle est là, vous êtes prêt ! Que faire si vous n'avez pas encore reçu la fonctionnalité Pour ceux qui n'ont pas encore reçu cette fonctionnalité, l'approche de distribution de YouTube a été quelque peu opaque. Les créateurs cherchant à obtenir la fonctionnalité sont souvent conseillés de patienter. Le support partenaire YouTube a déclaré : 'La fonction audio multilingue est encore en cours de déploiement auprès de tous les créateurs. Si elle n'est pas encore accessible pour vous, nous vous demandons de patienter alors que nous continuons le déploiement. Cette fonctionnalité ne peut pas être activée manuellement pour les chaînes individuelles.' Cependant, chez Translatetracks, nous vous couvrons. Nous offrons un service pour créer des chaînes doublées pour les créateurs, favorisant la croissance d'un nouveau segment d'audience, même sans accès à la fonction audio multilingue. Essayez maintenant !"
+            },
+            "blogCard2": {
+                "date": "1 février 2024",
+                "readTime": "3 min de lecture",
+              "heading": "L'augmentation spectaculaire des vues de MrBeast grâce aux pistes audio doublées de YouTube",
+            "teaser": "En février 2023, YouTube a dévoilé une fonctionnalité qui, dans sa simplicité et son efficacité, a considérablement augmenté l'audience des principaux influenceurs comme MrBeast. Cet outil révolutionnaire ? Les pistes audio multilingues. Comprendre l'audio multilingue sur YouTube Cette fonctionnalité est une aubaine pour les audiences mondiales, leur permettant de profiter de vidéos avec des pistes audio doublées dans la langue. Elle brise essentiellement la barrière de la langue, permettant aux spectateurs de profiter du contenu dans leur langue maternelle directement sur la chaîne principale du créateur, sans avoir à chercher une version doublée séparément. L'avantage de l'audio multilingue pour les YouTubers Considérez les statistiques : une grande majorité du monde ne parle pas anglais, pourtant de nombreux YouTubers populaires, y compris MrBeast, créent principalement du contenu en anglais. Pour un créateur de contenu sur YouTube, le but ultime est d'élargir continuellement leur audience. Une fois que vous avez saturé votre marché local, l'étape suivante est de devenir mondial. C'est là que les pistes audio multilingues entrent en jeu. Le mouvement stratégique de MrBeast À l'origine, MrBeast a abordé la barrière de la langue en créant des chaînes séparées pour différentes langues, comme MrBeast Espanol. Cependant, avec l'introduction de l'audio multilingue de YouTube, il a pu ajouter des pistes doublées à ses vidéos originales. Cela a non seulement rationalisé son processus mais a également centralisé son audience, augmentant considérablement ses vues. Dans une interview, MrBeast a crédité cette fonctionnalité pour augmenter substantiellement son audience par vidéo. Ce n'est pas seulement à propos de MrBeast. YouTube rapporte que les créateurs utilisant cette fonctionnalité ont vu environ 15% de leur temps de visionnage provenir de spectateurs utilisant les pistes audio doublées. Activer l'audio multilingue en tant que spectateur et créateur Pour les spectateurs, c'est aussi simple que de cliquer sur l'icône des paramètres sur une vidéo et de sélectionner leur piste audio préférée. Pour les créateurs, ils peuvent facilement ajouter plusieurs pistes audio dans diverses langues en utilisant l'éditeur de sous-titres lors du téléchargement de leur contenu. Le rôle de TranslateTracks dans l'engagement de l'audience mondiale Alors que l'audio multilingue ouvre la voie à une portée internationale, la question d'obtenir des doublages de haute qualité et rentables dans diverses langues demeure. C'est là que TranslateTracks intervient. Nous nous spécialisons dans la fourniture de doublages IA premium et rentables dans plus de 50 langues. Notre technologie, avec nos experts en traduction et notre équipe dédiée, vous assure de recevoir un doublage IA de haute qualité pour vos vidéos YouTube, atteignant de nouveaux publics inexplorés. Votre tour de devenir mondial avec TranslateTracks La conclusion est claire : l'audio multilingue révolutionne l'audience de YouTube. Pour les créateurs cherchant à briser les barrières linguistiques et à atteindre une audience mondiale, TranslateTracks offre la solution parfaite pour commencer avec des doublages IA de haute qualité. Embrassez cette nouvelle ère de création de contenu – commencez à doubler avec TranslateTracks aujourd'hui !"
+            },
+            "blogCard3": {
+              "date": "1 février 2024",
+              "readTime": "3 min de lecture",
+              "heading": "Le secret derrière l'incroyable succès de 100M de vues de Mr. Beast",
+            "teaser": "Comment se démarquer dans un monde digital grouillant de plus de 113 millions de créateurs de contenu ? C'est une question avec laquelle les influenceurs YouTube luttent constamment, visant à capturer l'attention des 122 millions d'utilisateurs actifs quotidiens de la plateforme. Jimmy Donaldson, plus connu sous le nom de \"Mr. Beast\", a craqué ce code. À seulement 24 ans, comptant plus de 231 millions d'abonnés, il se positionne comme l'une des personnalités les plus regardées et les mieux payées de YouTube. Le changement de jeu pour Mr. Beast est survenu en 2021 lorsque son nombre d'abonnés a grimpé de 40 000 à un stupéfiant 54 millions, principalement grâce à sa stratégie d'introduction de vidéos doublées. Le 8 juillet 2021, il a lancé son premier ensemble de vidéos multilingues en espagnol. Ce n'était que le début. Bientôt, son contenu était disponible en arabe, bengali, français, hindi, indonésien, japonais, coréen, portugais, russe, thaï, turc et vietnamien. Cette diversification linguistique a catapulté son audience et sa base d'abonnés dans les centaines de millions. Dans une conversation franche avec Joe Rogan, Mr. Beast a souligné une perspicacité cruciale : \"moins de 10% du monde parle anglais, donc si vous créez du contenu uniquement en anglais, vous manquez 90% de l'audience potentielle.\" Initialement, l'approche de Mr. Beast impliquait la création de chaînes YouTube séparées pour chaque langue. Cependant, avec l'introduction de la fonction audio multilingue de YouTube fin 2023, il a intégré ses chaînes linguistiques diverses, y compris celle en hindi, dans sa chaîne principale. Cette stratégie a non seulement rationalisé sa production de contenu mais a également centralisé son audience, conduisant à une augmentation des vues et de l'engagement. Le résultat a été rien de moins que spectaculaire. Des vidéos qui avaient précédemment des comptes de vues modestes ont commencé à atteindre des millions. Une vidéo doublée en 12 langues, par exemple, est passée de 15 millions à près de 200 millions de vues. Le succès, selon Mr. Beast, était dû aux traductions culturellement résonnantes, avec sa chaîne en hindi devenant exceptionnellement populaire. Gérer des traductions qui maintiennent le ton et l'intention à travers les langues est une tâche formidable. C'est là que des services professionnels comme TranslateTracks interviennent. Spécialisés dans plus de 28 langues, TranslateTracks offre une solution facile et rentable pour doubler les vidéos en utilisant l'IA. Nous offrons non seulement des traductions premium mais aussi fournissons un accès à notre plateforme offrant une flexibilité pour les créateurs d'affiner leur contenu. La tendance des vidéos doublées multilingues est plus qu'une simple mode passagère ; elle représente l'avenir de YouTube. Créer du contenu qui transcende les barrières linguistiques est clé pour construire une communauté véritablement mondiale. Avec TranslateTracks, vous ne vous contentez pas de traduire ; vous vous connectez avec une audience mondiale, garantissant que votre contenu est relatable et agréable pour tous, indépendamment de leur langue maternelle."
+            }
+          },
+          "BlogHeader": {
+            "BlogWriter": "Auteur du Blog"
+        },
+          "BlogPost1": {
+            "blogTitle": "Comment vérifier si votre chaîne YouTube dispose de la fonction audio multilingue",
+            "metaDate": "1 février 2024",
+            "writerName": "Michael Hyde",
+            "section1Title": "Explorer l'option audio multilingue innovante de YouTube en 2024",
+            "section1Content": "Êtes-vous créateur de contenu sur YouTube cette année ? Si oui, vous avez peut-être entendu parler de l'excitante \"fonction audio multilingue\". Cet outil innovant change la donne, surtout pour ceux qui cherchent à étendre leur portée mondiale. Il permet aux créateurs de télécharger diverses pistes audio doublées en complément de leur contenu principal. Cela signifie que les spectateurs du monde entier peuvent profiter des vidéos dans leur langue préférée.",
+            "section2Content": "Prenez, par exemple, une vidéo originellement en italien. Avec cette fonctionnalité, un créateur peut ajouter une piste audio supplémentaire en anglais. Lorsqu'un utilisateur anglophone regarde la vidéo, YouTube la joue automatiquement avec le doublage anglais, y compris un titre et une description traduits.",
+            "videoDemoAlt": "Vidéo de démo MLA",
+            "section3Content": "Les spectateurs ont également la flexibilité de changer de pistes audio en cours de vidéo. En cliquant sur l'icône des paramètres (le symbole d'engrenage), en sélectionnant 'Pistes audio', et en choisissant leur langue préférée, ils peuvent modifier le doublage comme ils le souhaitent.",
+            "section3Content2": "L'impact de cette fonctionnalité est significatif. Par exemple, JakiDale et Jamy – Epicurieux, des chaînes ayant utilisé nos services chez TranslateTracks, ont constaté une augmentation remarquable de leur audience.",
+            "checkFeatureTitle": "Vérifier la fonction audio multilingue sur votre chaîne",
+            "checkFeatureContent": "YouTube introduit progressivement cette fonctionnalité à ses créateurs. Beaucoup l'ont reçue sans même réaliser son potentiel. Pour vérifier si elle est disponible pour vous, suivez ces étapes : Naviguez vers YouTube Studio, sélectionnez une vidéo plus longue, cliquez sur 'Sous-titres' dans le panneau de gauche, et cherchez une option pour ajouter des fichiers audio dans différentes langues. Si elle est là, vous êtes prêt !",
+            "creatorImageAlt": "Créateur utilisant YouTube Studio",
+            "featureNotAvailableTitle": "Que faire si vous n'avez pas encore reçu la fonctionnalité",
+            "featureNotAvailableContent": "Pour ceux qui n'ont pas reçu cette fonctionnalité, l'approche de distribution de YouTube a été quelque peu opaque. Les créateurs en quête de la fonctionnalité sont souvent conseillés de patienter. Le support partenaire YouTube a déclaré : \"La fonction audio multilingue est encore en cours de déploiement pour tous les créateurs. Si elle n'est pas encore accessible pour vous, nous vous demandons de patienter alors que nous continuons le déploiement. Cette fonctionnalité ne peut pas être activée manuellement pour les chaînes individuelles.\"",
+            "mlaNotAvailableImageAlt": "Fonction MLA non disponible",
+            "conclusion": "Cependant, chez Translatetracks, nous avons ce qu'il vous faut. Nous offrons un service pour créer des chaînes doublées pour les créateurs, favorisant la croissance d'un nouveau segment d'audience, même sans accès à la fonction audio multilingue."
+        },
+        "BlogPost2": {
+            "headerImageSrc": "/blog_2_header.jpg",
+            "heading": "L'augmentation spectaculaire des vues de MrBeast grâce aux pistes audio doublées de YouTube",
+            "metaDate": "1 février 2024",
+            "writerName": "Manuel Berger",
+            "writerImageSrc": "/em1.png",
+            "introduction": "En février 2023, YouTube a dévoilé une fonctionnalité qui, dans sa simplicité et son efficacité, a considérablement augmenté l'audience des influenceurs de premier plan comme MrBeast. Cet outil révolutionnaire ? Les pistes audio multilingues.",
+            "sectionUnderstandingTitle": "Comprendre l'audio multilingue sur YouTube",
+            "sectionUnderstandingContent": "Cette fonctionnalité est une aubaine pour les audiences mondiales, leur permettant de profiter de vidéos avec des pistes audio doublées dans la langue. Elle brise essentiellement la barrière linguistique, permettant aux spectateurs de profiter du contenu dans leur langue maternelle directement sur la chaîne principale du créateur, sans avoir à chercher une version doublée séparément.",
+            "sectionAdvantageTitle": "L'avantage de l'audio multilingue pour les YouTubers",
+            "sectionAdvantageContent": "Considérez les statistiques : une grande majorité du monde ne parle pas anglais, pourtant de nombreux YouTubers populaires, y compris MrBeast, créent principalement du contenu en anglais. Pour un créateur de contenu sur YouTube, le but ultime est d'étendre continuellement leur audience. Une fois que vous avez saturé votre marché local, l'étape suivante est de devenir mondial. C'est là que les pistes audio multilingues entrent en jeu.",
+            "sectionStrategicMoveTitle": "Le mouvement stratégique de MrBeast",
+            "sectionStrategicMoveContent": "À l'origine, MrBeast a abordé la barrière de la langue en créant des chaînes séparées pour différentes langues, comme MrBeast Espanol. Cependant, avec l'introduction de l'audio multilingue de YouTube, il a pu ajouter des pistes doublées à ses vidéos originales. Cela a non seulement rationalisé son processus mais aussi centralisé son audience, augmentant considérablement ses vues. Dans une interview, MrBeast a attribué à cette fonctionnalité une augmentation substantielle de son audience par vidéo. Cela ne concerne pas seulement MrBeast. YouTube rapporte que les créateurs utilisant cette fonctionnalité ont vu environ 15% de leur temps de visionnage provenir de spectateurs utilisant les pistes audio doublées.",
+            "sectionStatsContent": "Cela ne concerne pas seulement MrBeast. YouTube rapporte que les créateurs utilisant cette fonctionnalité ont vu environ 15% de leur temps de visionnage provenir de spectateurs utilisant les pistes audio doublées.",
+            "sectionActivatingTitle": "Activer l'audio multilingue en tant que spectateur et créateur",
+            "sectionActivatingContent": "Pour les spectateurs, c'est aussi simple que de cliquer sur l'icône des paramètres sur une vidéo et de sélectionner leur piste audio préférée. Pour les créateurs, ils peuvent facilement ajouter plusieurs pistes audio dans diverses langues en utilisant l'éditeur de sous-titres lors du téléchargement de leur contenu.",
+            "demoVideoSrc": "/mla_demo.mp4",
+            "creatorImageSrc": "/creator.jpg",
+            "sectionForCreators": "Pour les créateurs, ils peuvent facilement ajouter plusieurs pistes audio dans diverses langues en utilisant l'éditeur de sous-titres lors du téléchargement de leur contenu.",
+            "creatorImageAlt": "Créateur utilisant YouTube Studio",
+            "sectionRoleOfTranslateTracksTitle": "Le rôle de TranslateTracks dans l'engagement de l'audience mondiale",
+            "sectionRoleOfTranslateTracksContent": "Alors que l'audio multilingue ouvre la voie à une portée internationale, la question d'obtenir des doublages de haute qualité et rentables dans diverses langues demeure. C'est là que TranslateTracks intervient. Nous nous spécialisons dans la fourniture de doublages IA premium et rentables dans plus de 50 langues. Notre technologie, accompagnée de nos experts en traduction et notre équipe dédiée, vous assure d'obtenir un doublage IA de haute qualité pour vos vidéos YouTube, atteignant de nouveaux publics inexplorés.",
+            "sectionYourTurnTitle": "Votre tour de devenir mondial avec TranslateTracks",
+            "sectionYourTurnContent": "La conclusion est claire : l'audio multilingue révolutionne l'audience sur YouTube. Pour les créateurs cherchant à briser les barrières linguistiques et à atteindre une audience mondiale, TranslateTracks offre la solution parfaite pour commencer avec des doublages IA de haute qualité. Embrassez cette nouvelle ère de création de contenu – commencez à doubler avec TranslateTracks aujourd'hui !",
+            "conclusion": "Embrassez cette nouvelle ère de création de contenu – commencez à doubler avec TranslateTracks aujourd'hui !"
+        },
+        "BlogPost3": {
+            "headerImageSrc": "/blog_3_header.jpg",
+            "heading": "Le secret derrière l'incroyable succès de 100M de vues de Mr. Beast",
+            "metaDate": "1 février 2024",
+            "writerName": "Bryan Cody",
+            "writerImageSrc": "/em1.png",
+            "introduction": "Comment se démarquer dans un monde numérique qui compte plus de 113 millions de créateurs de contenu ? C'est une question à laquelle les influenceurs YouTube sont constamment confrontés, cherchant à capter l'attention des 122 millions d'utilisateurs actifs quotidiens de la plateforme.",
+            "mrBeastIntro": "Jimmy Donaldson, plus connu sous le nom de \"Mr. Beast\", a déchiffré ce code. À seulement 24 ans, avec plus de 231 millions d'abonnés, il est l'une des personnalités les plus regardées et les mieux rémunérées de YouTube.",
+            "gameChanger": "Le tournant pour Mr. Beast est survenu en 2021 lorsque son nombre d'abonnés a grimpé de 40 000 à un stupéfiant 54 millions, principalement grâce à sa stratégie d'introduction de vidéos doublées. Le 8 juillet 2021, il a lancé son premier ensemble de vidéos multilingues en espagnol. Ce n'était que le début. Bientôt, son contenu était disponible en arabe, bengali, français, hindi, indonésien, japonais, coréen, portugais, russe, thaï, turc et vietnamien. Cette diversification linguistique a propulsé son audience et sa base d'abonnés dans les centaines de millions.",
+            "crucialInsight": "Dans une conversation franche avec Joe Rogan, Mr. Beast a souligné une perspicacité cruciale : \"moins de 10% du monde parle anglais, donc si vous créez du contenu uniquement en anglais, vous manquez 90% de l'audience potentielle.\"",
+            "strategyShift": "Initialement, l'approche de Mr. Beast impliquait la création de chaînes YouTube séparées pour chaque langue. Cependant, avec l'introduction de la fonction audio multilingue de YouTube fin 2023, il a intégré ses chaînes de langues diverses, y compris celle en hindi, dans sa chaîne principale. Cette stratégie a non seulement rationalisé sa production de contenu mais a également centralisé son audience, conduisant à une augmentation des vues et de l'engagement.",
+            "translateTracksRole": "Gérer des traductions qui maintiennent le ton et l'intention à travers les langues est une tâche redoutable. C'est là que des services professionnels comme TranslateTracks interviennent.",
+            "translateTracksOffering": "Spécialisée dans plus de 28 langues, TranslateTracks offre une solution facile et rentable pour doubler les vidéos en utilisant l'IA. Nous offrons non seulement des traductions premium mais aussi un accès à notre plateforme offrant une flexibilité pour les créateurs d'affiner leur contenu.",
+            "futureTrend": "La tendance des vidéos doublées multilingues est plus qu'une simple mode ; elle représente l'avenir de YouTube. Créer du contenu qui transcende les barrières linguistiques est la clé pour construire une communauté véritablement mondiale.",
+            "globalCommunity": "Avec TranslateTracks, vous ne faites pas que traduire ; vous vous connectez avec une audience mondiale, garantissant que votre contenu est relatable et agréable pour tous, quel que soit leur langue maternelle."
+        }
+        
+
+        
+
+}
