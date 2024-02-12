@@ -50,6 +50,14 @@ export default function Blog() {
                     link={"/blog/secret_of_mrbeast"}
                     teaser={t('blogPost3Teaser')} 
                 />
+                <Card 
+                    key={2} 
+                    src="/blog_3_header.jpg"
+                    meta={`${t('blogPost1Date')} • ${t('readTime')}`}
+                    heading={t('blogPost4Title')}
+                    link={"/blog/why_translatetracks"}
+                    teaser={t('blogPost4Teaser')} 
+                />
             </div>
         </div>
     )

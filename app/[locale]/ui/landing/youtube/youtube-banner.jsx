@@ -63,7 +63,7 @@ const YouTubeBanner = () => {
             <div className="md:flex lg:flex-row flex-col mt-12 gap-3">
                 <div>
                 <VideoPlayer
-                    videoSrc={"https://translatetracks.s3.amazonaws.com/videos/8e6168fb-26ab-4489-ba98-91a714d30565/sample_test.mp4"}
+                    videoSrc={"https://gn4fkd4imrwrwyvs.public.blob.vercel-storage.com/sample_test-uDGOnxeMAql4dGpFpm6KEsxy9VNdni.mp4"}
                     audioTracks={audioTracks}
                     videoRef={videoRef}
                     audioRef={audioRef}

@@ -9,7 +9,7 @@ const Banner = () => {
         <div className="flex justify-around my-4 flex-wrap-reverse">
         <div className="flex flex-col self-center">
             <p className="text-4xl my-4 self-center md:text-7xl md:self-start">{t('Democratizing')}</p>
-            <p className="text-4xl md:text-7xl md:my-4">{t('PremiumDubbing')}</p>
+            <p className="text-4xl md:text-7xl md:my-4 self-center">{t('PremiumDubbing')}</p>
             <div className="flex justify-between">
                 <p className="text-xl m-1 mx-2 text-center">{t('Cheaper')}</p>
                 <p className="text-xl m-1 mx-2 text-center">{t('ExpertVerifiedLocalization')}</p>

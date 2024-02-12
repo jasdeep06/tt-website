@@ -36,6 +36,14 @@ const BlogFooter = ({ showButton = true }) => {
                     link={"/blog/secret_of_mrbeast"}
                     teaser={t('blogCard3.teaser')} 
                 />
+                <Card 
+                    key={2} 
+                    src="/blog_3_header.jpg"
+                    meta={`${t('blogCard4.date')} • ${t('blogCard4.readTime')}`}
+                    heading={t('blogCard4.heading')}
+                    link={"/blog/why_translatetracks"}
+                    teaser={t('blogCard4.teaser')}
+                />
             </div>
         </div>
     );
