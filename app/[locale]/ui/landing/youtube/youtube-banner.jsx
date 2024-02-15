@@ -20,10 +20,10 @@ const YouTubeBanner = () => {
 
     const [isMuted, setIsMuted] = useState(true);
     const audioTracks = {
-        'English': "https://gn4fkd4imrwrwyvs.public.blob.vercel-storage.com/translated_english-YYkJ9OOJCZH5UVJHudLXoHM8zs50KW.mp3",
-        "Spanish": "https://gn4fkd4imrwrwyvs.public.blob.vercel-storage.com/translated_spanish-yJgBGuVCvJbTCjmTqZM9KffNHAdQ3j.mp3",
-        "Italian": "https://gn4fkd4imrwrwyvs.public.blob.vercel-storage.com/original_italian-TO5xcNxtAV5H91ra4RTMFG8vnABss0.mp3",
-        "French": "https://gn4fkd4imrwrwyvs.public.blob.vercel-storage.com/translated_french-GRslIdbZ4IfT4UJw1P8WwXV3THt0L8.mp3"
+        'English': "/translated_english.mp3",
+        "Spanish": "/translated_spanish.mp3",
+        "Italian": "/translated_italian.mp3",
+        "French": "/translated_french.mp3",
     };
 
     const languages = Object.keys(audioTracks);
@@ -63,7 +63,7 @@ const YouTubeBanner = () => {
             <div className="md:flex lg:flex-row flex-col mt-12 gap-3">
                 <div>
                 <VideoPlayer
-                    videoSrc={"https://translatetracks.s3.amazonaws.com/site-assets/robot_dog_sample.mp4"}
+                    videoSrc={"/robot_dog_sample.mp4"}
                     audioTracks={audioTracks}
                     videoRef={videoRef}
                     audioRef={audioRef}
