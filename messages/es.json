@@ -3,8 +3,8 @@
       "Democratizing": "Democratizando",
       "PremiumDubbing": "Doblaje Premium",
       "Cheaper": "4x más barato",
-      "ExpertVerifiedLocalization": "Localización experta",
-      "AccurateLipSync": "Sincro labial precisa",
+      "ExpertVerifiedLocalization": "Traducción Experta",
+      "AccurateLipSync": "Sincro Labial Precisa",
       "GetStarted": "Empezar",
       "OurClients": "Nuestros Clientes"
     },
@@ -39,9 +39,8 @@
     "Youtube": {
       "youtubeMultiLanguageAudioTrack": "PISTA DE AUDIO MULTILENGUAJE DE YOUTUBE",
       "languageBarrier": "El idioma ya no es una barrera",
-      "testimonialText": "Solo el 1% del planeta habla italiano como lengua materna. ¡Estoy muy agradecido con TranslateTracks por permitir que mi contenido alcance al resto del mundo!",
-      "testimonialName": "Jacopo D’Alesio",
-      "testimonialChannel": "JakiDale"
+      "TTinAction": "¡Ve TranslateTracks en Acción!",
+      "Instruction": "Selecciona para quitar el silencio y cambiar de idioma"
     },
     "Youtube-Calculator": {
       "calculatorTitle": "CALCULA CUÁNTO TE COSTARÁ",
@@ -65,9 +64,9 @@
       "superchargeYourReach4": "TRADUCCIÓN DE PANTALLA",
       "superchargeYourReach5": "y sincronización labial",
       "superchargeYourReach6": "mágica!",
-      "testimonialText": "TranslateTracks ha sido un cambio de juego para mí. Ahora puedo alcanzar una audiencia global con mi contenido. ¡No puedo esperar a ver qué hacen después!",
-      "testimonialName": "Elon Musk",
-      "testimonialChannel": "Tesla",
+      "testimonialText": "Soy un creador de cursos de España. Mi curso original estaba en español. Translatetracks tradujo y dobló mi curso al inglés, incluyendo presentaciones y contenido en pantalla, cuadernos de trabajo del curso y libros electrónicos perfectamente. ¡Ahora puedo llegar a una audiencia global!",
+      "testimonialName": "Francisco Navarro Lara",
+      "testimonialChannel": "How to be a Best Seller",
       "dubbing": "DOBLAJE",
       "screenTranslation": "TRADUCCIÓN DE PANTALLA",
       "lipSync": "SINCRONIZACIÓN LABIAL"

@@ -43,7 +43,7 @@ const Calculator = () => {
                     <Checkbox isSelected={screenTranslation} onChange={() => setscreenTranslation(!screenTranslation)}>{t('screenTranslationOption')}</Checkbox>
                 </div>
                 <p className="my-5 text-[#B9ABA0] md:text-sm">{t('totalLabel')}</p>
-                <p><span className="md:text-5xl text-3xl">{"$ "}</span><span className="md:text-5xl text-3xl">{(6 + (+lipsync) * 3 + (+screenTranslation) * 3) * videoLength}</span><span className="text-xl mb-1">{t('perLanguage')}</span></p>
+                <p><span className="md:text-5xl text-3xl">{"$ "}</span><span className="md:text-5xl text-3xl">{(6 + (+lipsync) * 1.5 + (+screenTranslation) * 1.5) * videoLength}</span><span className="text-xl mb-1">{t('perLanguage')}</span></p>
                 <p className="self-center md:text-2xl text-lg my-2 font-bold">{t('whatYouWillGet')}</p>
                 <GetItem text={lipsync ? t('getItemLipSync') : t('getItemNoLipSync')} />
                 {screenTranslation && <GetItem text={t('getItemScreenTranslation')} />}

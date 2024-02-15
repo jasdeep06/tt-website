@@ -17,7 +17,7 @@ export default function Blog() {
                         <p>{t('readTime')}</p>
                     </div>
                     <h2 className="text-4xl font-bold text-balance text-center">{t('blogPost1Title')}</h2>
-                    <a className="px-6 py-4 rounded-full max-h-[60px] bg-black font-bold text-white border border-pink hidden md:flex items-center w-max" href="/blog/finding_the_MLA_feature">{t('readMore')}</a>
+                    <a className="px-6 py-4 rounded-full max-h-[60px] bg-black font-bold text-white border border-pink hidden md:flex items-center w-max" href="/blog/how-to-find-the-multilingual-audio-track-in-youtube">{t('readMore')}</a>
                 </div>
                 <Image src="/blog_MLA_header_3.jpg" height={500} width={500} alt="blog-header" className="object-cover w-full h-full rounded-2xl" />
             </div>
@@ -28,7 +28,7 @@ export default function Blog() {
                         key={6} 
                         src="/blog_MLA_header_3.jpg" 
                         meta={`${t('blogPost1Date')} • ${t('readTime')}`} 
-                        link={"/blog/finding_the_MLA_feature"} 
+                        link={"/blog/how-to-find-the-multilingual-audio-track-in-youtube"} 
                         heading={t('blogPost1Title')} 
                         teaser={t('blogPost1Teaser')}
                     />
@@ -39,7 +39,7 @@ export default function Blog() {
                     src="/blog_2_thumbnail.jpg" 
                     meta={`${t('blogPost1Date')} • ${t('readTime')}`}
                     heading={t('blogPost2Title')}
-                    link={"/blog/mrbeast_rise_MLA"}
+                    link={"/blog/mrbeast-rise-in-views-youtube-translated-dubbed-audio-tracks"}
                     teaser={t('blogPost2Teaser')} 
                 />
                 <Card 
@@ -47,15 +47,15 @@ export default function Blog() {
                     src="/blog_3_header.jpg"
                     meta={`${t('blogPost1Date')} • ${t('readTime')}`}
                     heading={t('blogPost3Title')}
-                    link={"/blog/secret_of_mrbeast"}
+                    link={"/blog/how-translation-and-dubbing-boosted-mrbeast-views-to-100m"}
                     teaser={t('blogPost3Teaser')} 
                 />
                 <Card 
                     key={2} 
-                    src="/blog_3_header.jpg"
+                    src="/translatetracks.jpg"
                     meta={`${t('blogPost1Date')} • ${t('readTime')}`}
                     heading={t('blogPost4Title')}
-                    link={"/blog/why_translatetracks"}
+                    link={"/blog/why-choose-translatetracks-to-translate-and-dub-your-videos"}
                     teaser={t('blogPost4Teaser')} 
                 />
             </div>

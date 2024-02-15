@@ -11,7 +11,7 @@ const BlogPost = () => {
     return (
         <React.Fragment>
             <BlogHeader
-              imgSrc={"/blog_MLA_header_3.jpg"} // Change this to the appropriate header image path
+              imgSrc={"/translatetracks.jpg"} // Change this to the appropriate header image path
               heading={t('blogTitle')}
               meta={t('metaDate')}
               writerName={t('writerName')}

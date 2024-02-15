@@ -3,7 +3,7 @@
       "Democratizing": "Democratizzazione",
       "PremiumDubbing": "Doppiaggio Premium",
       "Cheaper": "4x più economico",
-      "ExpertVerifiedLocalization": "Localizzazione esperta",
+      "ExpertVerifiedLocalization": "Traduzione esperta",
       "AccurateLipSync": "Sincro labiale precisa",
       "GetStarted": "Inizia Ora",
       "OurClients": "I Nostri Clienti"
@@ -40,9 +40,8 @@
 
                 "youtubeMultiLanguageAudioTrack": "TRACCIA AUDIO MULTI-LINGUA YOUTUBE",
                 "languageBarrier": "La lingua non è più una barriera",
-                "testimonialText": "Solo l'1% del pianeta parla nativamente l'italiano. Sono molto grato a TranslateTracks per aver permesso ai miei contenuti di raggiungere il resto del mondo!",
-                "testimonialName": "Jacopo D’Alesio",
-                "testimonialChannel": "JakiDale"
+                "TTinAction": "Guarda TranslateTracks in Azione!",
+                "Instruction": "Seleziona per attivare l'audio e cambiare lingua"
         },
         "Youtube-Calculator": {
                 "calculatorTitle": "CALCOLA QUANTO TI COSTERÀ",
@@ -66,9 +65,9 @@
             "superchargeYourReach4":"TRADUZIONE SCHERMO",
             "superchargeYourReach5": "e magico",
             "superchargeYourReach6": "SINCRONIZZAZIONE LABIALE!",
-            "testimonialText": "TranslateTracks è una svolta per me. Ora posso raggiungere un pubblico globale con i miei contenuti. Non vedo l'ora di vedere cosa faranno dopo!",
-            "testimonialName": "Elon Musk",
-            "testimonialChannel": "Tesla",
+            "testimonialText": "Sono un creatore di corsi dalla Spagna. Il mio corso originale era in spagnolo. Translatetracks ha tradotto e doppiato il mio corso in inglese, inclusi presentazioni e contenuti su schermo, quaderni di lavoro del corso e libri elettronici perfettamente. Ora posso raggiungere un pubblico globale!",
+            "testimonialName": "Francisco Navarro Lara",
+            "testimonialChannel": "How to be a Best Seller",
             "dubbing": "DOPPIAGGIO",
             "screenTranslation": "TRADUZIONE SCHERMO",
             "lipSync": "SINCRONIZZAZIONE LABIALE"

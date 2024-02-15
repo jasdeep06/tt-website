@@ -12,11 +12,19 @@ const BlogFooter = ({ showButton = true }) => {
             </div>}
             <p className="text-2xl font-bold ml-5 my-5">{t('readMore')}</p>
             <div className="flex overflow-auto w-full py-2 gap-5">
+            <Card 
+                    key={2} 
+                    src="/translatetracks.jpg"
+                    meta={`${t('blogCard4.date')} • ${t('blogCard4.readTime')}`}
+                    heading={t('blogCard4.heading')}
+                    link={"/blog/why-choose-translatetracks-to-translate-and-dub-your-videos"}
+                    teaser={t('blogCard4.teaser')}
+                />
                 <Card 
                     key={6} 
                     src="/blog_MLA_header_3.jpg" 
                     meta={`${t('blogCard1.date')} • ${t('blogCard1.readTime')}`} 
-                    link={"/blog/finding_the_MLA_feature"} 
+                    link={"/blog/how-to-find-the-multilingual-audio-track-in-youtube"} 
                     heading={t('blogCard1.heading')} 
                     teaser={t('blogCard1.teaser')}
                 />
@@ -25,7 +33,7 @@ const BlogFooter = ({ showButton = true }) => {
                     src="/blog_2_thumbnail.jpg" 
                     meta={`${t('blogCard2.date')} • ${t('blogCard2.readTime')}`}
                     heading={t('blogCard2.heading')}
-                    link={"/blog/mrbeast_rise_MLA"}
+                    link={"/blog/mrbeast-rise-in-views-youtube-translated-dubbed-audio-tracks"}
                     teaser={t('blogCard2.teaser')} 
                 />
                 <Card 
@@ -33,17 +41,10 @@ const BlogFooter = ({ showButton = true }) => {
                     src="/blog_3_header.jpg"
                     meta={`${t('blogCard3.date')} • ${t('blogCard3.readTime')}`}
                     heading={t('blogCard3.heading')}
-                    link={"/blog/secret_of_mrbeast"}
+                    link={"/blog/how-translation-and-dubbing-boosted-mrbeast-views-to-100m"}
                     teaser={t('blogCard3.teaser')} 
                 />
-                <Card 
-                    key={2} 
-                    src="/blog_3_header.jpg"
-                    meta={`${t('blogCard4.date')} • ${t('blogCard4.readTime')}`}
-                    heading={t('blogCard4.heading')}
-                    link={"/blog/why_translatetracks"}
-                    teaser={t('blogCard4.teaser')}
-                />
+                
             </div>
         </div>
     );

@@ -3,7 +3,7 @@ import Image from "next/image"
 const Card = ({src,meta,heading,teaser,link}) => {
     return (
         <article className="flex flex-col gap-5 size-fit">
-            <Image alt="Going From 0 to 10 Million Views per Month"
+            <Image alt="blog-post-thumbnail" 
                 className="rounded-2xl h-auto object-cover w-full"
                 src={src} 
                 width={500}

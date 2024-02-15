@@ -27,22 +27,22 @@ const ClientCarousel = () => {
         <p className="text-3xl text-center my-8">{t('OurClients')}</p>
         <Slider {...settings}>
           <div >
-            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo3.png" alt="amazon" width={75} height={75} />
+            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo3.png" alt="best-seller" width={75} height={75} />
           </div>
           <div>
-            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo8.png" alt="apple" width={75} height={75}/>
+            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo8.png" alt="webedia" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo6.png" alt="facebook" width={75} height={75}/>
+            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo1.png" alt="colom" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo4.png" alt="amazon" width={75} height={75}/>
+            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo4.png" alt="epicurieux" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo5.png" alt="amazon" width={75} height={75}/>
+            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo5.png" alt="francisco" width={75} height={75}/>
           </div>
           <div>
-            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo7.png" alt="amazon" width={75} height={75}/>
+            <Image className="m-auto md:w-[75px] md:h-[75px] w-[50px] h-[50px]" src="/logo2.png" alt="client" width={75} height={75}/>
           </div>
         </Slider>
       </div>

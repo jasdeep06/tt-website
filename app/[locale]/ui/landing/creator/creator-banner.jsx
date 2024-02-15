@@ -23,7 +23,7 @@ const CreatorBanner = () => {
           ref={ref}
           id="translation"
           >
-            <Image src="/video_translation_compact.png" width={75} height={75} alt="yt-logo" className="self-center" />
+            <Image src="/video_translation_compact.png" width={75} height={75} alt="translation-logo" className="self-center" />
             <p className="md:text-3xl text-xl my-2 text-center self-center">{t('completeVideoTranslationTitle')}</p>
             {/* <p className="md:text-xl text-lg my-2 self-center text-center">{t('superchargeYourReach')}</p> */}
             <p className="md:text-xl text-lg my-2 self-center text-center">{t('superchargeYourReach1')} <span className="md:text-3xl font-bold">{t('superchargeYourReach2')} </span>{t('superchargeYourReach3')} <span className="md:text-3xl font-bold">{t('superchargeYourReach4')} </span>{t('superchargeYourReach5')} <span className="md:text-3xl font-bold">{t('superchargeYourReach6')}</span>!</p>

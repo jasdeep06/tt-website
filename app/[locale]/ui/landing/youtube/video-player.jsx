@@ -40,16 +40,6 @@ const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLa
             >
                 <source src={audioTracks[currentLang]} type="audio/mp3" />
             </audio>
-            {/* <div>
-                <button onClick={toggleMute}>
-                    {isMuted ? 'Unmute' : 'Mute'}
-                </button>
-                {Object.keys(audioTracks).map((lang) => (
-                    <button key={lang} onClick={() => switchLanguage(lang)}>
-                        {lang}
-                    </button>
-                ))}
-            </div> */}
         </div>
     );
 };

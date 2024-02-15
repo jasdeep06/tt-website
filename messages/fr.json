@@ -3,7 +3,7 @@
       "Democratizing": "Démocratiser le",
       "PremiumDubbing": "Doublage de qualité",
       "Cheaper": "4x moins cher",
-    "ExpertVerifiedLocalization": "Localisation experte",
+    "ExpertVerifiedLocalization": "Traduction experte",
     "AccurateLipSync": "Lip-sync précis",
     "GetStarted": "Commencer",
       "OurClients": "Nos clients"
@@ -40,9 +40,8 @@
 
                 "youtubeMultiLanguageAudioTrack": "PISTE AUDIO MULTILINGUE YOUTUBE",
                 "languageBarrier": "La langue n'est plus une barrière",
-                "testimonialText": "Seulement 1% de la planète parle nativement l'italien. Je suis extrêmement reconnaissant à TranslateTracks de permettre à mon contenu d'atteindre le reste du monde !",
-                "testimonialName": "Jacopo D’Alesio",
-                "testimonialChannel": "JakiDale"
+                "TTinAction": "Regardez TranslateTracks en Action !",
+                "Instruction": "Sélectionnez pour activer le son et changer de langue"
         },
         "Youtube-Calculator": {
                 "calculatorTitle": "CALCULEZ COMBIEN CELA VOUS COÛTERA",
@@ -66,9 +65,9 @@
             "superchargeYourReach4":"la TRADUCTION D'ÉCRAN",
             "superchargeYourReach5": "et la magique",
             "superchargeYourReach6": "SYNCHRONISATION LABIALE !",
-            "testimonialText": "TranslateTracks a changé la donne pour moi. Je peux désormais toucher un public mondial avec mon contenu. J'ai hâte de voir leurs prochaines innovations !",
-            "testimonialName": "Elon Musk",
-            "testimonialChannel": "Tesla",
+            "testimonialText": "Je suis un créateur de cours d'Espagne. Mon cours original était en espagnol. Translatetracks a traduit et doublé mon cours en anglais, y compris les présentations et le contenu à l'écran, les cahiers de travail du cours et les livres électroniques parfaitement. Maintenant, je peux atteindre un public mondial !",
+            "testimonialName": "Francisco Navarro Lara",
+            "testimonialChannel": "How to be a Best Seller",
             "dubbing": "DOUBLAGE",
             "screenTranslation": "TRADUCTION D'ÉCRAN",
             "lipSync": "SYNCHRO LABIALE"
