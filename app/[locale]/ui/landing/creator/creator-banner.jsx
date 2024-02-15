@@ -36,11 +36,11 @@ const CreatorBanner = () => {
                 channel={t('testimonialChannel')}
                 hiddenSm={false}
                 imgSrc={'/francisco_white.png'}/>
-                <div className="xl:flex xl:flex-wrap xl:justify-around hidden">
+                {/* <div className="xl:flex xl:flex-wrap xl:justify-around hidden">
                 <HowBlock text={t('dubbing')} small hex="#5f3edf" angle="3" animate_from='left' invert/>
                 <HowBlock text={t('screenTranslation')} small hex="#5f3edf" angle="-3" animate_from='down' invert/>
                 <HowBlock text={t('lipSync')} small hex="#5f3edf" angle="3" animate_from='right' invert/>
-                </div>
+                </div> */}
                 </div>
             </div>
             <Calculator/>
