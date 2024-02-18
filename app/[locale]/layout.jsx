@@ -1,6 +1,8 @@
 import { Poppins } from 'next/font/google'
 import './globals.css'
 import {NextIntlClientProvider, useMessages} from 'next-intl';
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 
 
 const inter = Poppins({weight: "400", subsets: ['latin']})
@@ -20,6 +22,7 @@ export default function RootLayout({ children, params:locale}) {
         
         {children}
       </NextIntlClientProvider>
+      <GoogleAnalytics gaId='G-SKL7HRBJB5'/>
         
       </body>
     </html>
