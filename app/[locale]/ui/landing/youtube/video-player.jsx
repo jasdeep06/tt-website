@@ -29,6 +29,7 @@ const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLa
                 className="rounded-3xl lg:w-[640px] w-full"
                 playsInline
                 muted
+                preload='metadata'
             >
                 <source src={videoSrc} type="video/mp4" />
                 Your browser does not support the video tag.
