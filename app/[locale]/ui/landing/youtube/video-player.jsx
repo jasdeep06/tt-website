@@ -24,7 +24,6 @@ const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLa
           ref={paraRef} >
             <video 
                 ref={videoRef} 
-                muted 
                 loop
                 onClick={toggleMute}
                 className="rounded-3xl lg:w-[640px] w-full"
