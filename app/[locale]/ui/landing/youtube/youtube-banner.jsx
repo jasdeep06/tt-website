@@ -52,7 +52,7 @@ const YouTubeBanner = () => {
             //play every audio for 1 ms and pause them
             Object.values(audioRefs).forEach((audioRef) => {
                 audioRef.current.play();
-                audioRef.current.pause();
+                // audioRef.current.pause();
             });
             videoRef.current.play();
             audioRefs[currentLang].current.play();
