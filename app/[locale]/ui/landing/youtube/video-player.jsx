@@ -28,6 +28,7 @@ const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLa
                 loop
                 onClick={toggleMute}
                 className="rounded-3xl lg:w-[640px] w-full"
+                playsInline
             >
                 <source src={videoSrc} type="video/mp4" />
                 Your browser does not support the video tag.
