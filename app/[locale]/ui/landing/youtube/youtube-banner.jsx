@@ -10,13 +10,14 @@ import { useTranslations } from "next-intl"; // Make sure to import useTranslati
 
 const YouTubeBanner = () => {
     const t = useTranslations('Youtube'); // Initialize translations
-    const [currentLang, setCurrentLang] = useState('');
+    const [currentLang, setCurrentLang] = useState('English');
     const audioRef = useRef(null);
     const videoRef = useRef(null);
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
     const paraRef = useRef(null);
     const paraInView = useInView(paraRef, { once: true });
+    const [playing, setPlaying] = useState(false);
 
     const [isMuted, setIsMuted] = useState(true);
     const audioTracks = {
@@ -36,11 +37,24 @@ const YouTubeBanner = () => {
         }
     };
 
+    const togglePlay = () => {
+        if (videoRef.current.paused) {
+            videoRef.current.play();
+            audioRef.current.play();
+            setPlaying(true);
+        } else {
+            videoRef.current.pause();
+            audioRef.current.pause();
+            setPlaying(false);
+        }
+    }
+
     const switchLanguage = (lang) => {
         if (audioRef.current) {
             //check if video is playing and pause it
             if (!videoRef.current.paused) {
                 videoRef.current.pause();
+                audioRef.current.pause();
             }
             const currentTime = videoRef.current.currentTime;
             setCurrentLang(lang);
@@ -76,7 +90,7 @@ const YouTubeBanner = () => {
                     audioRef={audioRef}
                     isMuted={isMuted}
                     currentLang={currentLang}
-                    toggleMute={toggleMute}
+                    togglePlay={togglePlay}
                 />
                 </div>
                 <div className="flex lg:flex-1 lg:flex-col flex-col-reverse px-2 justify-around lg:gap-0 gap-2" style={{

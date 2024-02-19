@@ -2,7 +2,7 @@
 import { useInView } from 'framer-motion';
 import React, { useState, useRef, useEffect } from 'react';
 
-const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLang,toggleMute }) => {
+const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLang,togglePlay }) => {
 
     const paraRef = useRef(null);
     const paraInView = useInView(paraRef, { once: true });
@@ -25,9 +25,10 @@ const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLa
             <video 
                 ref={videoRef} 
                 loop
-                onClick={toggleMute}
+                onClick={togglePlay}
                 className="rounded-3xl lg:w-[640px] w-full"
                 playsInline
+                muted
             >
                 <source src={videoSrc} type="video/mp4" />
                 Your browser does not support the video tag.
@@ -35,7 +36,6 @@ const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLa
             <audio 
                 ref={audioRef} 
                 hidden
-                muted={isMuted}
             >
                 <source src={audioTracks[currentLang]} type="audio/mp3" />
             </audio>
