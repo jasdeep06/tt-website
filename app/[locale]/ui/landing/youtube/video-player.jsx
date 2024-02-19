@@ -2,15 +2,15 @@
 import { useInView } from 'framer-motion';
 import React, { useState, useRef, useEffect } from 'react';
 
-const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLang,togglePlay }) => {
+const VideoPlayer = ({ videoSrc, audioTracks,audioRef1,audioRef2,audioRef3,audioRef4,audioRefs,isMuted,videoRef,currentLang,togglePlay }) => {
 
     const paraRef = useRef(null);
     const paraInView = useInView(paraRef, { once: true });
     
     useEffect(() => {
-        if (videoRef.current && audioRef.current) {
+        if (videoRef.current && audioRefs[currentLang].current) {
             videoRef.current.onseeked = () => {
-                audioRef.current.currentTime = videoRef.current.currentTime;
+                audioRefs[currentLang].current.currentTime = videoRef.current.currentTime;
             };
         }
     }, []);
@@ -35,10 +35,28 @@ const VideoPlayer = ({ videoSrc, audioTracks,audioRef,isMuted,videoRef,currentLa
                 Your browser does not support the video tag.
             </video>
             <audio 
-                ref={audioRef} 
+                ref={audioRef1} 
                 hidden
             >
-                <source src={audioTracks[currentLang]} type="audio/mp3" />
+                <source src={audioTracks['English']} type="audio/mp3" />
+            </audio>
+            <audio 
+                ref={audioRef2} 
+                hidden
+            >
+                <source src={audioTracks['Spanish']} type="audio/mp3" />
+            </audio>
+            <audio 
+                ref={audioRef3} 
+                hidden
+            >
+                <source src={audioTracks['Italian']} type="audio/mp3" />
+            </audio>
+            <audio 
+                ref={audioRef4} 
+                hidden
+            >
+                <source src={audioTracks['French']} type="audio/mp3" />
             </audio>
         </div>
     );

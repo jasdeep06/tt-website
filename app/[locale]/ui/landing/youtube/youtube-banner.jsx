@@ -11,7 +11,10 @@ import { useTranslations } from "next-intl"; // Make sure to import useTranslati
 const YouTubeBanner = () => {
     const t = useTranslations('Youtube'); // Initialize translations
     const [currentLang, setCurrentLang] = useState('English');
-    const audioRef = useRef(null);
+    const audioRef1 = useRef(null);
+    const audioRef2 = useRef(null);
+    const audioRef3 = useRef(null);
+    const audioRef4 = useRef(null);
     const videoRef = useRef(null);
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
@@ -27,6 +30,13 @@ const YouTubeBanner = () => {
         "French": "/translated_french.mp3",
     };
 
+    const audioRefs = {
+        'English': audioRef1,
+        "Spanish": audioRef2,
+        "Italian": audioRef3,
+        "French": audioRef4,
+    };
+
     const languages = Object.keys(audioTracks);
     
     const toggleMute = () => {
@@ -39,30 +49,35 @@ const YouTubeBanner = () => {
 
     const togglePlay = () => {
         if (videoRef.current.paused) {
+            //play every audio for 1 ms and pause them
+            Object.values(audioRefs).forEach((audioRef) => {
+                audioRef.current.play();
+                audioRef.current.pause();
+            });
             videoRef.current.play();
-            audioRef.current.play();
+            audioRefs[currentLang].current.play();
             setPlaying(true);
         } else {
             videoRef.current.pause();
-            audioRef.current.pause();
+            audioRefs[currentLang].current.pause();
             setPlaying(false);
         }
     }
 
     const switchLanguage = (lang) => {
-        if (audioRef.current) {
+        if (audioRefs[currentLang].current) {
             //check if video is playing and pause it
             if (!videoRef.current.paused) {
                 videoRef.current.pause();
-                audioRef.current.pause();
+                audioRefs[currentLang].current.pause();
             }
             const currentTime = videoRef.current.currentTime;
             setCurrentLang(lang);
-            audioRef.current.src = audioTracks[lang];
-            audioRef.current.currentTime = currentTime;
+            // audioRef.current.src = audioTracks[lang];
+            audioRefs[lang].current.currentTime = currentTime;
             //check if audio has loaded and play it
-            audioRef.current.oncanplay = () => {
-                audioRef.current.play();
+            audioRefs[lang].current.oncanplay = () => {
+                audioRefs[lang].current.play();
                 videoRef.current.play();
             };
             setIsMuted(false);
@@ -87,7 +102,11 @@ const YouTubeBanner = () => {
                     videoSrc={"/robot_dog_sample.mp4#t=0.001"}
                     audioTracks={audioTracks}
                     videoRef={videoRef}
-                    audioRef={audioRef}
+                    audioRef1={audioRef1}
+                    audioRef2={audioRef2}
+                    audioRef3={audioRef3}
+                    audioRef4={audioRef4}
+                    audioRefs={audioRefs}
                     isMuted={isMuted}
                     currentLang={currentLang}
                     togglePlay={togglePlay}
