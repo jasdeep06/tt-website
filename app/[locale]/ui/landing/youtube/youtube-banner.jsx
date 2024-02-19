@@ -10,7 +10,7 @@ import { useTranslations } from "next-intl"; // Make sure to import useTranslati
 
 const YouTubeBanner = () => {
     const t = useTranslations('Youtube'); // Initialize translations
-    const [currentLang, setCurrentLang] = useState('English');
+    const [currentLang, setCurrentLang] = useState('');
     const audioRef = useRef(null);
     const videoRef = useRef(null);
     const ref = useRef(null);
@@ -38,12 +38,19 @@ const YouTubeBanner = () => {
 
     const switchLanguage = (lang) => {
         if (audioRef.current) {
+            //check if video is playing and pause it
+            if (!videoRef.current.paused) {
+                videoRef.current.pause();
+            }
             const currentTime = videoRef.current.currentTime;
-
             setCurrentLang(lang);
             audioRef.current.src = audioTracks[lang];
             audioRef.current.currentTime = currentTime;
-            audioRef.current.play();
+            //check if audio has loaded and play it
+            audioRef.current.oncanplay = () => {
+                audioRef.current.play();
+                videoRef.current.play();
+            };
             setIsMuted(false);
         }
     };
