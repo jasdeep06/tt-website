@@ -84,7 +84,7 @@ const YouTubeBanner = () => {
             <div className="md:flex lg:flex-row flex-col mt-12 gap-3">
                 <div>
                 <VideoPlayer
-                    videoSrc={"/robot_dog_sample.mp4"}
+                    videoSrc={"/robot_dog_sample.mp4#t=0.001"}
                     audioTracks={audioTracks}
                     videoRef={videoRef}
                     audioRef={audioRef}
