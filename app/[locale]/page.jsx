@@ -18,7 +18,7 @@ export default function Home() {
     <React.Fragment>
     <Nav/>
     <Banner/>
-    <ClientCarousel/>
+    {/* <ClientCarousel/> */}
     <HowBanner/>
     <ProcessBanner/>
     <YouTubeBanner/>
